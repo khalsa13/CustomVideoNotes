@@ -59,6 +59,8 @@ public class Canvas_videoplayer_activity extends YouTubeBaseActivity {
 
     @Override
     public void onBackPressed() {
+        Log.d("abcdmsg","hanji");
+        running_Video.release();
         Thumbnail thumbnail =new Thumbnail();
         thumbnail.setId(videoId);
         thumbnail.setThumbnail(Thumbnail_String);
@@ -109,7 +111,7 @@ public class Canvas_videoplayer_activity extends YouTubeBaseActivity {
                 youTubePlayer.play();
                 Note note_returned = RecordsDatabase.getInstance(getApplicationContext()).recordDao().loadById(videoId);
                 if(note_returned != null){
-                    Toast.makeText(getBaseContext(), "Saved NOTES found", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getBaseContext(), "Saved Notes found", Toast.LENGTH_SHORT).show();
                     //old video //populate adpaters
                     save_note.setVisibility(View.INVISIBLE);
                     add_page.setVisibility(View.INVISIBLE);
@@ -345,6 +347,7 @@ public class Canvas_videoplayer_activity extends YouTubeBaseActivity {
                 write.setVisibility(View.INVISIBLE);
                 redo.setVisibility(View.INVISIBLE);
                 viewmode.setVisibility(View.VISIBLE);
+                onBackPressed();
             }
         });
         //onclick listeners
@@ -498,7 +501,7 @@ public class Canvas_videoplayer_activity extends YouTubeBaseActivity {
             Note note = new Note(videoId,returnedList);
             RecordsDatabase.getInstance(getApplicationContext()).recordDao().insertRecord(note);
         }
-        onBackPressed();
+       // onBackPressed();
     }
 }
 
