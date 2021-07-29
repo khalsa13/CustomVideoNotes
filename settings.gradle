@@ -1,0 +1,2 @@
+rootProject.name='VideoNotesPh1'
+include ':app', ':draw'

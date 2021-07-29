@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_home_screen_grid_layout.xml",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\layout\\activity_home_screen_grid_layout.xml"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\timinglist.xml",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\layout\\timinglist.xml"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\searchitem.xml",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\layout\\searchitem.xml"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_canvas_videoplayer_activity.xml",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\layout\\activity_canvas_videoplayer_activity.xml"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\recommenditem.xml",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\layout\\recommenditem.xml"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\homescreen_ui.xml",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\layout\\homescreen_ui.xml"
+    }
+]

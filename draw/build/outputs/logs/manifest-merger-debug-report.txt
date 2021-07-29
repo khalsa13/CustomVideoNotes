@@ -1,0 +1,45 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml:2:1-11:12
+	package
+		ADDED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml
+		INJECTED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml
+		ADDED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml:2:1-11:12
+		INJECTED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml
+		ADDED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml:2:1-11:12
+		INJECTED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml:5:5-9:19
+activity#com.divyanshu.draw.activity.DrawingActivity
+ADDED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml:6:9-8:65
+	android:theme
+		ADDED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml:8:13-63
+	android:name
+		ADDED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml:7:13-53
+uses-sdk
+INJECTED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml
+INJECTED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml
+INJECTED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml
+INJECTED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml
+		ADDED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml
+		INJECTED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml
+		ADDED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml
+		INJECTED from D:\VideoNotesPh1\draw\src\main\AndroidManifest.xml

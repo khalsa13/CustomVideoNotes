@@ -1,0 +1,2 @@
+com/divyanshu/draw/BuildConfig.java
+ com.divyanshu.draw.BuildConfig

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Canvas_videoplayer_activity">
+    <view
+        android:id="@+id/videoview"
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toTopOf="@+id/canvasArea"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        android:background="@color/White"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoview">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_marginStart="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/write"
+            android:src="@drawable/pen"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_marginStart="70dp"
+            android:layout_width="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/erase"
+            android:src="@drawable/erase"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_marginStart="130dp"
+            android:layout_width="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/undo"
+            android:src="@drawable/undo"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_marginStart="190dp"
+            android:layout_width="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/redo"
+            android:src="@drawable/redo"/>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:layout_margin="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textAlignment="center"
+            android:text="@string/view_mode_active"
+            android:id="@+id/viewmode"/>
+    </RelativeLayout>
+    <View
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/relativeLayout"
+        app:layout_constraintBottom_toTopOf="@id/canvasArea"
+        style="@style/Divider"/>
+    <RelativeLayout
+        android:background="@color/White"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/canvasArea"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/relativeLayout"
+        app:layout_constraintBottom_toTopOf="@+id/timingsList">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title_Notes"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:textSize="15sp"
+            android:maxLength="45"
+            android:hint="@string/hint_add_note"
+            android:textColorHint="@color/descColor"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:background="@color/black"/>
+
+        <com.example.videonotesph1.LockableScrollView
+            android:layout_width="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_height="match_parent"
+            android:descendantFocusability="beforeDescendants"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:fadeScrollbars="false"
+            android:id="@+id/scrollView"
+            android:background="@color/black"
+            android:scrollbars="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="beforeDescendants"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <com.divyanshu.draw.widget.DrawView
+                    android:id="@+id/writing_area"
+                    android:layout_width="match_parent"
+                    android:layout_height="1000dp" />
+            </LinearLayout>
+
+        </com.example.videonotesph1.LockableScrollView>
+    </RelativeLayout>
+    <LinearLayout
+        android:background="@color/White"
+        android:orientation="vertical"
+        android:id="@+id/timingsList"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/canvasArea"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/extraBottomSpace"
+        android:layout_height="45dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/timer"
+            android:background="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:background="@color/grey"
+        android:orientation="vertical"
+        android:id="@+id/extraBottomSpace"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/timingsList"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="45dp">
+
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/add_page"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/add" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/savenotesmsg"
+            android:textColor="@color/grey"
+            android:textStyle="bold" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/black"
+            android:text="Save all pages"
+            android:id="@+id/save_note_full"
+            android:textColor="@color/White"
+            android:textSize="10sp"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
