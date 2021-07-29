@@ -1,0 +1,104 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.videonotesph1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:7:5-79
+12-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:7:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:8:5-80
+13-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:8:22-78
+14
+15    <application
+15-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:10:5-38:19
+16        android:allowBackup="true"
+16-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:11:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.7.0-alpha01] C:\Users\ramasingh\.gradle\caches\transforms-3\7a9af311d4d3eae50c5fd2ec5ebd5a2a\transformed\core-1.7.0-alpha01\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:12:9-43
+20        android:label="@string/app_name"
+20-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:13:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:14:9-54
+22        android:supportsRtl="true"
+22-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:15:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:16:9-40
+25        <activity
+25-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:17:9-19:65
+26            android:name="com.example.videonotesph1.MainActivity"
+26-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:17:19-47
+27            android:screenOrientation="portrait" />
+27-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:18:13-49
+28        <activity
+28-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:20:9-23:56
+29            android:name="com.example.videonotesph1.Canvas_videoplayer_activity"
+29-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:21:13-56
+30            android:screenOrientation="portrait" />
+30-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:22:13-49
+31        <activity
+31-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:24:9-37:20
+32            android:name="com.example.videonotesph1.HomeScreenGridLayout"
+32-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:25:13-49
+33            android:screenOrientation="portrait" >
+33-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:26:13-49
+34            <intent-filter>
+34-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:28:13-31:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:29:17-69
+35-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:29:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:30:17-77
+37-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:30:27-74
+38            </intent-filter>
+39            <intent-filter>
+39-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:32:13-36:29
+40                <action android:name="android.intent.action.SEND" />
+40-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:33:17-69
+40-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:33:25-66
+41
+42                <category android:name="android.intent.category.DEFAULT" />
+42-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:34:17-76
+42-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:34:27-73
+43
+44                <data
+44-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:35:17-82
+45                    android:host="www.youtube.com"
+45-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:35:23-53
+46                    android:mimeType="text/*" />
+46-->D:\VideoNotesPh1\app\src\main\AndroidManifest.xml:35:54-79
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->[:draw] D:\VideoNotesPh1\draw\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:66
+50            android:name="com.divyanshu.draw.activity.DrawingActivity"
+50-->[:draw] D:\VideoNotesPh1\draw\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-71
+51            android:theme="@style/Theme.AppCompat.NoActionBar" />
+51-->[:draw] D:\VideoNotesPh1\draw\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-63
+52
+53        <service
+53-->[androidx.room:room-runtime:2.2.5] C:\Users\ramasingh\.gradle\caches\transforms-3\a16ac79eb6e1f1980f7a53c2af22e09c\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+54            android:name="androidx.room.MultiInstanceInvalidationService"
+54-->[androidx.room:room-runtime:2.2.5] C:\Users\ramasingh\.gradle\caches\transforms-3\a16ac79eb6e1f1980f7a53c2af22e09c\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+55            android:directBootAware="true"
+55-->[androidx.room:room-runtime:2.2.5] C:\Users\ramasingh\.gradle\caches\transforms-3\a16ac79eb6e1f1980f7a53c2af22e09c\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+56            android:exported="false" />
+56-->[androidx.room:room-runtime:2.2.5] C:\Users\ramasingh\.gradle\caches\transforms-3\a16ac79eb6e1f1980f7a53c2af22e09c\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+57    </application>
+58
+59</manifest>

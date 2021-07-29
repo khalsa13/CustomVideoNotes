@@ -1,0 +1,81 @@
+com/example/videonotesph1/Note.java
+ com.example.videonotesph1.Note
+com/example/videonotesph1/RecommendAdapter.java
+ com.example.videonotesph1.RecommendAdapter
+ com.example.videonotesph1.RecommendAdapter$1
+ com.example.videonotesph1.RecommendAdapter$1$1
+ com.example.videonotesph1.RecommendAdapter$ViewHolder
+com/example/videonotesph1/YoutubeDataModel.java
+ com.example.videonotesph1.YoutubeDataModel
+ com.example.videonotesph1.YoutubeDataModel$1
+com/example/videonotesph1/HomeScreenGridLayout.java
+ com.example.videonotesph1.HomeScreenGridLayout
+ com.example.videonotesph1.HomeScreenGridLayout$1
+ com.example.videonotesph1.HomeScreenGridLayout$2
+com/example/videonotesph1/dao.java
+ com.example.videonotesph1.dao
+com/example/videonotesph1/LockableScrollView.java
+ com.example.videonotesph1.LockableScrollView
+com/example/videonotesph1/timerAdapter.java
+ com.example.videonotesph1.timerAdapter
+ com.example.videonotesph1.timerAdapter$1
+ com.example.videonotesph1.timerAdapter$1$1
+ com.example.videonotesph1.timerAdapter$1$2
+ com.example.videonotesph1.timerAdapter$ViewHolder
+com/example/videonotesph1/ThumbnailDao.java
+ com.example.videonotesph1.ThumbnailDao
+com/example/videonotesph1/Canvas_videoplayer_activity.java
+ com.example.videonotesph1.Canvas_videoplayer_activity
+ com.example.videonotesph1.Canvas_videoplayer_activity$1
+ com.example.videonotesph1.Canvas_videoplayer_activity$2
+ com.example.videonotesph1.Canvas_videoplayer_activity$3
+ com.example.videonotesph1.Canvas_videoplayer_activity$4
+ com.example.videonotesph1.Canvas_videoplayer_activity$5
+ com.example.videonotesph1.Canvas_videoplayer_activity$6
+ com.example.videonotesph1.Canvas_videoplayer_activity$7
+ com.example.videonotesph1.Canvas_videoplayer_activity$8
+com/example/videonotesph1/databinding/ActivityMainBinding.java
+ com.example.videonotesph1.databinding.ActivityMainBinding
+com/example/videonotesph1/recordsModel.java
+ com.example.videonotesph1.recordsModel
+com/example/videonotesph1/databinding/ActivityHomeScreenGridLayoutBinding.java
+ com.example.videonotesph1.databinding.ActivityHomeScreenGridLayoutBinding
+com/example/videonotesph1/BuildConfig.java
+ com.example.videonotesph1.BuildConfig
+com/example/videonotesph1/HomeModel.java
+ com.example.videonotesph1.HomeModel
+com/example/videonotesph1/databinding/TiminglistBinding.java
+ com.example.videonotesph1.databinding.TiminglistBinding
+com/example/videonotesph1/RecordsDatabase.java
+ com.example.videonotesph1.RecordsDatabase
+com/example/videonotesph1/databinding/RecommenditemBinding.java
+ com.example.videonotesph1.databinding.RecommenditemBinding
+com/example/videonotesph1/databinding/HomescreenUiBinding.java
+ com.example.videonotesph1.databinding.HomescreenUiBinding
+com/example/videonotesph1/databinding/ActivityCanvasVideoplayerActivityBinding.java
+ com.example.videonotesph1.databinding.ActivityCanvasVideoplayerActivityBinding
+com/example/videonotesph1/GithubTypeConverters.java
+ com.example.videonotesph1.GithubTypeConverters
+ com.example.videonotesph1.GithubTypeConverters$1
+com/example/videonotesph1/searchResultsAdapter.java
+ com.example.videonotesph1.searchResultsAdapter
+ com.example.videonotesph1.searchResultsAdapter$1
+ com.example.videonotesph1.searchResultsAdapter$1$1
+ com.example.videonotesph1.searchResultsAdapter$ViewHolder
+com/example/videonotesph1/Thumbnail.java
+ com.example.videonotesph1.Thumbnail
+com/example/videonotesph1/HomeScreenAdapter.java
+ com.example.videonotesph1.HomeScreenAdapter
+ com.example.videonotesph1.HomeScreenAdapter$1
+com/example/videonotesph1/MainActivity.java
+ com.example.videonotesph1.MainActivity
+ com.example.videonotesph1.MainActivity$1
+ com.example.videonotesph1.MainActivity$2
+ com.example.videonotesph1.MainActivity$RequestYoutubeAPI
+ com.example.videonotesph1.MainActivity$RequestYoutubeAPI$1
+com/example/videonotesph1/timeModel.java
+ com.example.videonotesph1.timeModel
+com/example/videonotesph1/databinding/SearchitemBinding.java
+ com.example.videonotesph1.databinding.SearchitemBinding
+com/example/videonotesph1/Youtubeconfig.java
+ com.example.videonotesph1.Youtubeconfig

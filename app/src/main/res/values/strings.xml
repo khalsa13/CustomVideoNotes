@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VideoNotesPh1</string>
+    <string name="recommendations_msg">Recommended</string>
+    <string name="search">Search</string>
+    <string name="hint_add_note">Click on + icon to add notes</string>
+    <string name="view_mode_active"><u>Saved notes available..</u></string>
+    <string name="savenotesmsg"><b>Click on timers above to view your saved notes</b></string>
+    <string name="add_new_page">Add new page</string>
+</resources>

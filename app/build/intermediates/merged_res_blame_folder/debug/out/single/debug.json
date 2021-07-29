@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_erase.jpg.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\drawable\\erase.jpg"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_share.png.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\drawable\\share.png"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search.xml.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\drawable\\search.xml"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_keyboard.jpg.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\drawable\\keyboard.jpg"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home_screen_grid_layout.xml.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\layout\\activity_home_screen_grid_layout.xml"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\layout_timinglist.xml.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\layout\\timinglist.xml"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_customroundedges.xml.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\drawable\\customroundedges.xml"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_moreitem.xml.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\drawable\\moreitem.xml"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\layout_recommenditem.xml.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\layout\\recommenditem.xml"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\layout_searchitem.xml.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\layout\\searchitem.xml"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pen.png.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\drawable\\pen.png"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\layout_homescreen_ui.xml.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\layout\\homescreen_ui.xml"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add.xml.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\drawable\\add.xml"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_undo.png.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\drawable\\undo.png"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_whiteline.png.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\drawable\\whiteline.png"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\VideoNotesPh1\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\raw_loadinganimation.json.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\raw\\loadinganimation.json"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_redo.png.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\drawable\\redo.png"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_canvas_videoplayer_activity.xml.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\layout\\activity_canvas_videoplayer_activity.xml"
+    },
+    {
+        "merged": "D:\\VideoNotesPh1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\VideoNotesPh1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview"
+    app:cardCornerRadius="-10dp"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    app:cardBackgroundColor="@color/grey"
+    >
+  <RelativeLayout
+      android:background="@color/grey"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <com.google.android.youtube.player.YouTubeThumbnailView
+          android:id="@+id/Recommend_image"
+          android:layout_width="match_parent"
+          android:layout_height="125dp"/>
+
+      <androidx.appcompat.widget.AppCompatTextView
+          android:layout_below="@+id/Recommend_image"
+          android:id="@+id/Recommend_title"
+          android:layout_gravity="center"
+          android:layout_margin="8dp"
+          android:paddingStart="8dp"
+          android:paddingEnd="8dp"
+          android:textSize="12sp"
+          android:maxLines="1"
+          android:ellipsize="end"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/White"/>
+
+      <androidx.appcompat.widget.AppCompatTextView
+          android:layout_below="@+id/Recommend_title"
+          android:id="@+id/Recommend_Publish"
+          android:layout_gravity="center"
+          android:layout_margin="8dp"
+          android:paddingStart="8dp"
+          android:paddingEnd="8dp"
+          android:textSize="10sp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="@color/descColor"/>
+
+  </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
